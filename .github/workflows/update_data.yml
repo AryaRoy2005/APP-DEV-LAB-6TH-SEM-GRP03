@@ -3,7 +3,7 @@ name: Hourly Brain Update
 on:
   schedule:
     # Runs at minute 0 past every hour (Matches your screenshot)
-    - cron: '0 * * * *'
+    - cron: '* * * * *'
   # Allows you to click "Run Now" manually for testing
   workflow_dispatch:
 
