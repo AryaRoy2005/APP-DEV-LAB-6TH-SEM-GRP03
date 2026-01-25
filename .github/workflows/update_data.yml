@@ -39,12 +39,14 @@ jobs:
         run: |
           git config --global user.name "IndraBot"
           git config --global user.email "bot@indra.ai"
-          
-          # Check if there are changes (only commit if data changed)
+      
+          git fetch origin main
+          git rebase origin/main
+      
           if [[ -n $(git status -s) ]]; then
             git add .
             git commit -m "🧠 Auto-update: Market patterns refreshed"
-            git push
+            git push origin main
           else
             echo "No changes in market data. Skipping push."
           fi
