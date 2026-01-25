@@ -501,12 +501,12 @@
       "STABLE",
       "STABLE"
     ],
-    "win_rate": 68.1,
+    "win_rate": 68.09,
     "wins": 3866,
-    "losses": 1811,
-    "total_trades": 5677,
+    "losses": 1812,
+    "total_trades": 5678,
     "avg_win": 0.352,
-    "avg_loss": 0.234,
+    "avg_loss": 0.233,
     "expected_value": 0.165,
     "stopped_out_pct": 5.74,
     "profit_factor": 3.21
@@ -517,15 +517,15 @@
       "STABLE",
       "PUMP_SMALL"
     ],
-    "win_rate": 58.46,
-    "wins": 197,
+    "win_rate": 58.33,
+    "wins": 196,
     "losses": 140,
-    "total_trades": 337,
-    "avg_win": 0.524,
+    "total_trades": 336,
+    "avg_win": 0.522,
     "avg_loss": 0.349,
-    "expected_value": 0.162,
-    "stopped_out_pct": 15.13,
-    "profit_factor": 2.11
+    "expected_value": 0.159,
+    "stopped_out_pct": 15.18,
+    "profit_factor": 2.09
   },
   {
     "pattern": [
