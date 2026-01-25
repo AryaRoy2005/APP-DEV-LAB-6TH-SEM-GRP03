@@ -1,578 +1,172 @@
 [
-  {
-    "pattern": [
-      "PUMP_SMALL",
-      "PUMP_HUGE",
-      "STABLE"
-    ],
-    "win_rate": 78.26,
-    "wins": 18,
-    "losses": 5,
-    "total_trades": 23,
-    "avg_win": 0.771,
-    "avg_loss": 0.425,
-    "expected_value": 0.511,
-    "stopped_out_pct": 13.04,
-    "profit_factor": 6.53
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "STABLE",
-      "PUMP_HUGE"
-    ],
-    "win_rate": 64.52,
-    "wins": 20,
-    "losses": 11,
-    "total_trades": 31,
-    "avg_win": 0.884,
-    "avg_loss": 0.443,
-    "expected_value": 0.413,
-    "stopped_out_pct": 16.13,
-    "profit_factor": 3.63
-  },
-  {
-    "pattern": [
-      "DUMP_HUGE",
-      "PUMP_SMALL",
-      "PUMP_SMALL"
-    ],
-    "win_rate": 65.0,
-    "wins": 13,
-    "losses": 7,
-    "total_trades": 20,
-    "avg_win": 0.743,
-    "avg_loss": 0.534,
-    "expected_value": 0.296,
-    "stopped_out_pct": 25.0,
-    "profit_factor": 2.58
-  },
-  {
-    "pattern": [
-      "DUMP_HUGE",
-      "PUMP_SMALL",
-      "DUMP_SMALL"
-    ],
-    "win_rate": 66.67,
-    "wins": 16,
-    "losses": 8,
-    "total_trades": 24,
-    "avg_win": 0.693,
-    "avg_loss": 0.57,
-    "expected_value": 0.272,
-    "stopped_out_pct": 29.17,
-    "profit_factor": 2.43
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "DUMP_HUGE",
-      "DUMP_SMALL"
-    ],
-    "win_rate": 59.09,
-    "wins": 13,
-    "losses": 9,
-    "total_trades": 22,
-    "avg_win": 0.684,
-    "avg_loss": 0.338,
-    "expected_value": 0.266,
-    "stopped_out_pct": 13.64,
-    "profit_factor": 2.92
-  },
-  {
-    "pattern": [
-      "PUMP_SMALL",
-      "PUMP_SMALL",
-      "DUMP_SMALL"
-    ],
-    "win_rate": 65.82,
-    "wins": 104,
-    "losses": 54,
-    "total_trades": 158,
-    "avg_win": 0.601,
-    "avg_loss": 0.393,
-    "expected_value": 0.261,
-    "stopped_out_pct": 17.09,
-    "profit_factor": 2.95
-  },
-  {
-    "pattern": [
-      "PUMP_SMALL",
-      "DUMP_SMALL",
-      "PUMP_SMALL"
-    ],
-    "win_rate": 61.62,
-    "wins": 122,
-    "losses": 76,
-    "total_trades": 198,
-    "avg_win": 0.623,
-    "avg_loss": 0.357,
-    "expected_value": 0.247,
-    "stopped_out_pct": 15.15,
-    "profit_factor": 2.8
-  },
-  {
-    "pattern": [
-      "DUMP_SMALL",
-      "PUMP_SMALL",
-      "PUMP_SMALL"
-    ],
-    "win_rate": 61.62,
-    "wins": 114,
-    "losses": 71,
-    "total_trades": 185,
-    "avg_win": 0.645,
-    "avg_loss": 0.398,
-    "expected_value": 0.245,
-    "stopped_out_pct": 17.3,
-    "profit_factor": 2.6
-  },
-  {
-    "pattern": [
-      "PUMP_HUGE",
-      "STABLE",
-      "STABLE"
-    ],
-    "win_rate": 64.0,
-    "wins": 16,
-    "losses": 9,
-    "total_trades": 25,
-    "avg_win": 0.652,
-    "avg_loss": 0.542,
-    "expected_value": 0.223,
-    "stopped_out_pct": 28.0,
-    "profit_factor": 2.14
-  },
-  {
-    "pattern": [
-      "PUMP_SMALL",
-      "DUMP_SMALL",
-      "DUMP_SMALL"
-    ],
-    "win_rate": 62.32,
-    "wins": 86,
-    "losses": 52,
-    "total_trades": 138,
-    "avg_win": 0.629,
-    "avg_loss": 0.452,
-    "expected_value": 0.221,
-    "stopped_out_pct": 25.36,
-    "profit_factor": 2.3
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "DUMP_SMALL",
-      "DUMP_SMALL"
-    ],
-    "win_rate": 67.02,
-    "wins": 191,
-    "losses": 94,
-    "total_trades": 285,
-    "avg_win": 0.559,
-    "avg_loss": 0.465,
-    "expected_value": 0.221,
-    "stopped_out_pct": 21.4,
-    "profit_factor": 2.44
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "DUMP_SMALL",
-      "PUMP_SMALL"
-    ],
-    "win_rate": 65.36,
-    "wins": 251,
-    "losses": 133,
-    "total_trades": 384,
-    "avg_win": 0.547,
-    "avg_loss": 0.403,
-    "expected_value": 0.218,
-    "stopped_out_pct": 17.45,
-    "profit_factor": 2.56
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "PUMP_SMALL",
-      "DUMP_SMALL"
-    ],
-    "win_rate": 65.28,
-    "wins": 220,
-    "losses": 117,
-    "total_trades": 337,
-    "avg_win": 0.56,
-    "avg_loss": 0.426,
-    "expected_value": 0.218,
-    "stopped_out_pct": 19.29,
-    "profit_factor": 2.47
-  },
-  {
-    "pattern": [
-      "PUMP_SMALL",
-      "PUMP_SMALL",
-      "STABLE"
-    ],
-    "win_rate": 64.01,
-    "wins": 201,
-    "losses": 113,
-    "total_trades": 314,
-    "avg_win": 0.553,
-    "avg_loss": 0.383,
-    "expected_value": 0.216,
-    "stopped_out_pct": 14.33,
-    "profit_factor": 2.57
-  },
-  {
-    "pattern": [
-      "DUMP_SMALL",
-      "PUMP_SMALL",
-      "STABLE"
-    ],
-    "win_rate": 67.01,
-    "wins": 264,
-    "losses": 130,
-    "total_trades": 394,
-    "avg_win": 0.493,
-    "avg_loss": 0.377,
-    "expected_value": 0.206,
-    "stopped_out_pct": 12.18,
-    "profit_factor": 2.65
-  },
-  {
-    "pattern": [
-      "DUMP_SMALL",
-      "STABLE",
-      "DUMP_SMALL"
-    ],
-    "win_rate": 63.74,
-    "wins": 174,
-    "losses": 99,
-    "total_trades": 273,
-    "avg_win": 0.587,
-    "avg_loss": 0.466,
-    "expected_value": 0.205,
-    "stopped_out_pct": 22.34,
-    "profit_factor": 2.21
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "PUMP_SMALL",
-      "PUMP_SMALL"
-    ],
-    "win_rate": 62.95,
-    "wins": 175,
-    "losses": 103,
-    "total_trades": 278,
-    "avg_win": 0.531,
-    "avg_loss": 0.352,
-    "expected_value": 0.204,
-    "stopped_out_pct": 13.67,
-    "profit_factor": 2.56
-  },
-  {
-    "pattern": [
-      "DUMP_SMALL",
-      "STABLE",
-      "STABLE"
-    ],
-    "win_rate": 67.22,
-    "wins": 603,
-    "losses": 294,
-    "total_trades": 897,
-    "avg_win": 0.452,
-    "avg_loss": 0.309,
-    "expected_value": 0.202,
-    "stopped_out_pct": 10.26,
-    "profit_factor": 3.0
-  },
-  {
-    "pattern": [
-      "DUMP_SMALL",
-      "STABLE",
-      "PUMP_SMALL"
-    ],
-    "win_rate": 65.68,
-    "wins": 199,
-    "losses": 104,
-    "total_trades": 303,
-    "avg_win": 0.486,
-    "avg_loss": 0.345,
-    "expected_value": 0.201,
-    "stopped_out_pct": 12.87,
-    "profit_factor": 2.69
-  },
-  {
-    "pattern": [
-      "PUMP_HUGE",
-      "DUMP_SMALL",
-      "STABLE"
-    ],
-    "win_rate": 63.64,
-    "wins": 14,
-    "losses": 8,
-    "total_trades": 22,
-    "avg_win": 0.628,
-    "avg_loss": 0.55,
-    "expected_value": 0.199,
-    "stopped_out_pct": 27.27,
-    "profit_factor": 2.0
-  },
-  {
-    "pattern": [
-      "PUMP_SMALL",
-      "DUMP_SMALL",
-      "STABLE"
-    ],
-    "win_rate": 64.23,
-    "wins": 228,
-    "losses": 127,
-    "total_trades": 355,
-    "avg_win": 0.52,
-    "avg_loss": 0.38,
-    "expected_value": 0.198,
-    "stopped_out_pct": 16.62,
-    "profit_factor": 2.46
-  },
-  {
-    "pattern": [
-      "DUMP_SMALL",
-      "DUMP_SMALL",
-      "DUMP_SMALL"
-    ],
-    "win_rate": 62.86,
-    "wins": 66,
-    "losses": 39,
-    "total_trades": 105,
-    "avg_win": 0.598,
-    "avg_loss": 0.48,
-    "expected_value": 0.198,
-    "stopped_out_pct": 26.67,
-    "profit_factor": 2.11
-  },
-  {
-    "pattern": [
-      "PUMP_SMALL",
-      "STABLE",
-      "STABLE"
-    ],
-    "win_rate": 66.18,
-    "wins": 687,
-    "losses": 351,
-    "total_trades": 1038,
-    "avg_win": 0.445,
-    "avg_loss": 0.297,
-    "expected_value": 0.194,
-    "stopped_out_pct": 10.02,
-    "profit_factor": 2.93
-  },
-  {
-    "pattern": [
-      "DUMP_SMALL",
-      "DUMP_SMALL",
-      "STABLE"
-    ],
-    "win_rate": 64.78,
-    "wins": 160,
-    "losses": 87,
-    "total_trades": 247,
-    "avg_win": 0.52,
-    "avg_loss": 0.407,
-    "expected_value": 0.193,
-    "stopped_out_pct": 17.0,
-    "profit_factor": 2.35
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "STABLE",
-      "DUMP_SMALL"
-    ],
-    "win_rate": 64.84,
-    "wins": 605,
-    "losses": 328,
-    "total_trades": 933,
-    "avg_win": 0.496,
-    "avg_loss": 0.371,
-    "expected_value": 0.191,
-    "stopped_out_pct": 15.86,
-    "profit_factor": 2.47
-  },
-  {
-    "pattern": [
-      "DUMP_SMALL",
-      "PUMP_SMALL",
-      "DUMP_SMALL"
-    ],
-    "win_rate": 64.09,
-    "wins": 116,
-    "losses": 65,
-    "total_trades": 181,
-    "avg_win": 0.572,
-    "avg_loss": 0.491,
-    "expected_value": 0.19,
-    "stopped_out_pct": 25.97,
-    "profit_factor": 2.08
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "DUMP_SMALL",
-      "STABLE"
-    ],
-    "win_rate": 66.39,
-    "wins": 567,
-    "losses": 287,
-    "total_trades": 854,
-    "avg_win": 0.453,
-    "avg_loss": 0.338,
-    "expected_value": 0.187,
-    "stopped_out_pct": 13.0,
-    "profit_factor": 2.65
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "PUMP_SMALL",
-      "STABLE"
-    ],
-    "win_rate": 64.36,
-    "wins": 641,
-    "losses": 355,
-    "total_trades": 996,
-    "avg_win": 0.457,
-    "avg_loss": 0.303,
-    "expected_value": 0.186,
-    "stopped_out_pct": 8.94,
-    "profit_factor": 2.72
-  },
-  {
-    "pattern": [
-      "PUMP_SMALL",
-      "STABLE",
-      "DUMP_SMALL"
-    ],
-    "win_rate": 63.91,
-    "wins": 216,
-    "losses": 122,
-    "total_trades": 338,
-    "avg_win": 0.525,
-    "avg_loss": 0.424,
-    "expected_value": 0.183,
-    "stopped_out_pct": 20.71,
-    "profit_factor": 2.19
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "DUMP_HUGE",
-      "STABLE"
-    ],
-    "win_rate": 57.14,
-    "wins": 12,
-    "losses": 9,
-    "total_trades": 21,
-    "avg_win": 0.726,
-    "avg_loss": 0.559,
-    "expected_value": 0.175,
-    "stopped_out_pct": 38.1,
-    "profit_factor": 1.73
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "STABLE",
-      "PUMP_SMALL"
-    ],
-    "win_rate": 62.45,
-    "wins": 607,
-    "losses": 365,
-    "total_trades": 972,
-    "avg_win": 0.464,
-    "avg_loss": 0.316,
-    "expected_value": 0.171,
-    "stopped_out_pct": 11.52,
-    "profit_factor": 2.44
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "STABLE",
-      "STABLE"
-    ],
-    "win_rate": 68.09,
-    "wins": 3866,
-    "losses": 1812,
-    "total_trades": 5678,
-    "avg_win": 0.352,
-    "avg_loss": 0.233,
-    "expected_value": 0.165,
-    "stopped_out_pct": 5.74,
-    "profit_factor": 3.21
-  },
-  {
-    "pattern": [
-      "PUMP_SMALL",
-      "STABLE",
-      "PUMP_SMALL"
-    ],
-    "win_rate": 58.33,
-    "wins": 196,
-    "losses": 140,
-    "total_trades": 336,
-    "avg_win": 0.522,
-    "avg_loss": 0.349,
-    "expected_value": 0.159,
-    "stopped_out_pct": 15.18,
-    "profit_factor": 2.09
-  },
-  {
-    "pattern": [
-      "STABLE",
-      "DUMP_HUGE",
-      "PUMP_SMALL"
-    ],
-    "win_rate": 56.52,
-    "wins": 13,
-    "losses": 10,
-    "total_trades": 23,
-    "avg_win": 0.672,
-    "avg_loss": 0.521,
-    "expected_value": 0.153,
-    "stopped_out_pct": 34.78,
-    "profit_factor": 1.68
-  },
-  {
-    "pattern": [
-      "DUMP_SMALL",
-      "DUMP_SMALL",
-      "PUMP_SMALL"
-    ],
-    "win_rate": 61.8,
-    "wins": 110,
-    "losses": 68,
-    "total_trades": 178,
-    "avg_win": 0.512,
-    "avg_loss": 0.436,
-    "expected_value": 0.15,
-    "stopped_out_pct": 23.03,
-    "profit_factor": 1.9
-  },
-  {
-    "pattern": [
-      "PUMP_SMALL",
-      "PUMP_SMALL",
-      "PUMP_SMALL"
-    ],
-    "win_rate": 56.62,
-    "wins": 77,
-    "losses": 59,
-    "total_trades": 136,
-    "avg_win": 0.42,
-    "avg_loss": 0.44,
-    "expected_value": 0.047,
-    "stopped_out_pct": 27.21,
-    "profit_factor": 1.25
-  }
+  [
+    "PUMP_SMALL",
+    "PUMP_HUGE",
+    "STABLE"
+  ],
+  [
+    "DUMP_HUGE",
+    "PUMP_SMALL",
+    "PUMP_SMALL"
+  ],
+  [
+    "STABLE",
+    "DUMP_HUGE",
+    "DUMP_SMALL"
+  ],
+  [
+    "STABLE",
+    "STABLE",
+    "PUMP_HUGE"
+  ],
+  [
+    "DUMP_HUGE",
+    "PUMP_SMALL",
+    "DUMP_SMALL"
+  ],
+  [
+    "DUMP_SMALL",
+    "PUMP_SMALL",
+    "PUMP_SMALL"
+  ],
+  [
+    "PUMP_SMALL",
+    "PUMP_SMALL",
+    "DUMP_SMALL"
+  ],
+  [
+    "PUMP_SMALL",
+    "DUMP_SMALL",
+    "DUMP_SMALL"
+  ],
+  [
+    "PUMP_SMALL",
+    "DUMP_SMALL",
+    "PUMP_SMALL"
+  ],
+  [
+    "STABLE",
+    "DUMP_SMALL",
+    "DUMP_SMALL"
+  ],
+  [
+    "STABLE",
+    "DUMP_SMALL",
+    "PUMP_SMALL"
+  ],
+  [
+    "PUMP_SMALL",
+    "PUMP_SMALL",
+    "STABLE"
+  ],
+  [
+    "STABLE",
+    "PUMP_SMALL",
+    "DUMP_SMALL"
+  ],
+  [
+    "DUMP_SMALL",
+    "PUMP_SMALL",
+    "STABLE"
+  ],
+  [
+    "DUMP_SMALL",
+    "STABLE",
+    "PUMP_SMALL"
+  ],
+  [
+    "DUMP_SMALL",
+    "PUMP_SMALL",
+    "DUMP_SMALL"
+  ],
+  [
+    "DUMP_SMALL",
+    "STABLE",
+    "DUMP_SMALL"
+  ],
+  [
+    "PUMP_SMALL",
+    "STABLE",
+    "STABLE"
+  ],
+  [
+    "DUMP_SMALL",
+    "STABLE",
+    "STABLE"
+  ],
+  [
+    "DUMP_SMALL",
+    "DUMP_SMALL",
+    "STABLE"
+  ],
+  [
+    "PUMP_HUGE",
+    "DUMP_SMALL",
+    "STABLE"
+  ],
+  [
+    "PUMP_SMALL",
+    "DUMP_SMALL",
+    "STABLE"
+  ],
+  [
+    "PUMP_SMALL",
+    "STABLE",
+    "DUMP_SMALL"
+  ],
+  [
+    "DUMP_SMALL",
+    "DUMP_SMALL",
+    "DUMP_SMALL"
+  ],
+  [
+    "STABLE",
+    "STABLE",
+    "DUMP_SMALL"
+  ],
+  [
+    "STABLE",
+    "PUMP_SMALL",
+    "PUMP_SMALL"
+  ],
+  [
+    "STABLE",
+    "DUMP_SMALL",
+    "STABLE"
+  ],
+  [
+    "PUMP_HUGE",
+    "STABLE",
+    "STABLE"
+  ],
+  [
+    "STABLE",
+    "PUMP_SMALL",
+    "STABLE"
+  ],
+  [
+    "STABLE",
+    "STABLE",
+    "PUMP_SMALL"
+  ],
+  [
+    "STABLE",
+    "STABLE",
+    "STABLE"
+  ],
+  [
+    "DUMP_SMALL",
+    "DUMP_SMALL",
+    "PUMP_SMALL"
+  ],
+  [
+    "PUMP_SMALL",
+    "STABLE",
+    "PUMP_SMALL"
+  ],
+  [
+    "PUMP_SMALL",
+    "PUMP_SMALL",
+    "PUMP_SMALL"
+  ]
 ]
