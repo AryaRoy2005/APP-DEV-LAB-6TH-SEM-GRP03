@@ -3,6 +3,7 @@ import pandas as pd
 import json
 from collections import defaultdict
 
+
 def fetch_market_data(symbol="BTC-INR", period="max"):
     print(f"⏳ Downloading MAX history for {symbol}...")
     df = yf.download(symbol, period=period, interval="1h", progress=False)
