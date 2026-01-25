@@ -29,7 +29,6 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-
       # 4. Run your Analysis Script
       - name: Run Analysis
         run: python main.py
@@ -39,14 +38,12 @@ jobs:
         run: |
           git config --global user.name "IndraBot"
           git config --global user.email "bot@indra.ai"
-      
-          git fetch origin main
-          git rebase origin/main
-      
+          
+          # Check if there are changes (only commit if data changed)
           if [[ -n $(git status -s) ]]; then
             git add .
             git commit -m "🧠 Auto-update: Market patterns refreshed"
-            git push origin main
+            git push
           else
             echo "No changes in market data. Skipping push."
           fi
