@@ -124,10 +124,13 @@ def mine_patterns(df):
         print(f"❌ No patterns found with {MIN_WIN_RATE*100}% win rate and {MIN_OCCURRENCES}+ occurrences.")
         return
     
+    
+    final_patterns = [p['pattern'] for p in golden_patterns[:50]]
+    
     # Save top 50
     filename = "golden_patterns.json"
     with open(filename, "w") as f:
-        json.dump(golden_patterns[:50], f, indent=2)
+        json.dump(final_patterns, f, indent=2)
     
     print(f"\n💎 SUCCESS! Saved {len(golden_patterns[:50])} validated patterns:")
     print(f"   📊 Average Win Rate: {sum(p['win_rate'] for p in golden_patterns[:50]) / len(golden_patterns[:50]):.2f}%")
