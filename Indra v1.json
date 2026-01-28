@@ -82,7 +82,7 @@
     },
     {
       "parameters": {
-        "url": "https://raw.githubusercontent.com/AryaRoy2005/CryptoTradingTelegramBot/refs/heads/main/golden_patterns.json",
+        "url": "https://raw.githubusercontent.com/AryaRoy2005/APP-DEV-LAB-6TH-SEM-GRP03/refs/heads/main/golden_patterns.json",
         "options": {}
       },
       "type": "n8n-nodes-base.httpRequest",
