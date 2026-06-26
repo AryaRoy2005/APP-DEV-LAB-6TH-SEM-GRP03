@@ -95,14 +95,14 @@
     "DUMP_SMALL"
   ],
   [
-    "PUMP_SMALL",
-    "DUMP_SMALL",
-    "STABLE"
-  ],
-  [
     "STABLE",
     "STABLE",
     "DUMP_SMALL"
+  ],
+  [
+    "PUMP_SMALL",
+    "DUMP_SMALL",
+    "STABLE"
   ],
   [
     "STABLE",
