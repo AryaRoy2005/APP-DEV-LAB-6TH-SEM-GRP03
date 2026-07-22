@@ -66,13 +66,13 @@
   ],
   [
     "DUMP_SMALL",
-    "STABLE",
-    "STABLE"
+    "PUMP_SMALL",
+    "DUMP_SMALL"
   ],
   [
     "DUMP_SMALL",
-    "PUMP_SMALL",
-    "DUMP_SMALL"
+    "STABLE",
+    "STABLE"
   ],
   [
     "DUMP_SMALL",
