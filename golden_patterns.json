@@ -60,12 +60,12 @@
     "DUMP_SMALL"
   ],
   [
-    "PUMP_HUGE",
+    "DUMP_SMALL",
     "STABLE",
     "STABLE"
   ],
   [
-    "DUMP_SMALL",
+    "PUMP_HUGE",
     "STABLE",
     "STABLE"
   ],
