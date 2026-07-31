@@ -70,14 +70,14 @@
     "STABLE"
   ],
   [
-    "STABLE",
-    "STABLE",
-    "DUMP_SMALL"
-  ],
-  [
     "DUMP_SMALL",
     "DUMP_SMALL",
     "STABLE"
+  ],
+  [
+    "STABLE",
+    "STABLE",
+    "DUMP_SMALL"
   ],
   [
     "DUMP_SMALL",
