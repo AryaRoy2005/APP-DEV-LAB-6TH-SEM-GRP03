@@ -1,5 +1,10 @@
 [
   [
+    "PUMP_SMALL",
+    "PUMP_HUGE",
+    "STABLE"
+  ],
+  [
     "STABLE",
     "DUMP_SMALL",
     "DUMP_SMALL"
